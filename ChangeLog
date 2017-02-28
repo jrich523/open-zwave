@@ -1,3 +1,4 @@
+- ForceInstances now limited to association with the controller node.
 Version 1.5
  - Pull Request #743 - Updated Fibaro Devices from Navstev0 (Justin)
  - Pull Request #740 - Updated Fibaro FGMS-001 ID's from Technosf (Justin)
@@ -135,8 +136,37 @@ Version 1.5
  - Add Kaipule IM20 Door/Window Sensor (Nechry)
  - Add Add Yale door lock missing parameters (Nechry)
  - Add Yale Keyless Connected Smart Lock (Nechry) 
- - Add Yale variante for Keyless Connected Smart Lock (Nechry) 
-
+ - Add Yale variante for Keyless Connected Smart Lock (Nechry)
+ - Add add Heating Control variante (Nechry)
+ - Issue #1056 Added Configuration Variables for Telldus Plugin Switch TZWP-100 from fozzyg (Nechry)
+ - Add hank scene controllers from sarakha63 (Nechry)
+ - Add Vision Security ZF5201 Flood sensor (Nechry)
+ - Add Aeotec ZW116 Nano Switch (Nechry)
+ - Issue #1046 - Add Config for TZ45A from RCS (darrinsmart)
+ - Add Zipato ZP3102-EU Multisensor Duo (Nechry)
+ - Add homeseer hs-wd100plus (Nechry)
+ - Add Fibaro FGMS001-ZW5 Motion Sensor (Nechry)
+ - Pull Request #1086 - Add definitions for 3 Cooper Aspire RF devices from drkp (Nechry)
+ - Add Coolcam Siren Alarm NAS-AB01Z (Nechry)
+ - Add Ingersoll Rand DWZWAVE1 (Nechry)
+ - Pull Request #1087 - Add Schlage BE468 lock from webdestroya (Nechry)
+ - Add Philio PAN11 Smart Energy Plug In Switch from daniarv (Nechry)
+ - Add TKB TZ69E Smart energy plug in switch (Nechry)
+ - Pull Request #1107 - Typo in fgmszw5.xml from bobvanoijen (Nechry)
+ - Pull Request #1114 - Add GE 12729 Dimmer Switch from eiddor (Nechry)
+ - Pull Request #1113 - Add device configuration file for Linear WS15Z-1 Wall Switch from singularitycoder (Nechry)
+ - Pull Request #1112 - Add device configuration file for Linear WT00Z-1 3-Way Wall Accessory Switch from singularitycoder (Nechry)
+ - Pull Request #1111 - Typo's & indentation from bobvanoijen (Nechry)
+ - Pull Request #1109 - Add support for GE 12491 Z-Wave Plus switch from drkp  (Nechry)
+ - Add Aeotec ZW111 Nano Dimmer (Nechry)
+ - Pull Request #1120 - Add Ecolink TILTZWAVE2.5-ECO Garage Door Sensor from adreznec (Nechry)
+ - Add Ecolink Z-Wave Plus FireFighter (Nechry)
+ - Add Ecolink Ecolink Motion Detector (Nechry)
+ - Add Ecolink Door Window Sensor (Nechry)
+ - Pull Request #1105 - Replace some of the Explicit Locking with Scoped Locks (from tobiasgraf) - Also additional checking on the Unix Mutex Class to detect unbalanced Locking (Justin)
+ - If the TriggerRefreshValue XML is invalid, we could get into a infinite loop when trying to read the params (Justin)
+ - Add Fibaro FGKF601 Keyfob (Nechry)
+ 
 Version 1.4
  - Released 10th Jan, 2016
 
