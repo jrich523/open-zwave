@@ -23,6 +23,7 @@ DISTFILES =	.gitignore \
 	config/BeNext/PluginDimmer.xml \
 	config/BeNext/SceneController.xml \
 	config/BeNext/TagReader.xml \
+	config/BeNext/TagReader500.xml \
 	config/act/lfm20.xml \
 	config/act/zdm230.xml \
 	config/act/zdw103.xml \
@@ -358,6 +359,7 @@ DISTFILES =	.gitignore \
 	config/zooz/zse09.xml \
 	config/zooz/zse40.xml \
 	config/zwave.me/ZME_05431.xml \
+	config/zwave.me/ZME_05461.xml \
 	config/zwave.me/ZME_06433.xml \
 	config/zwave.me/ZME_06436.xml \
 	config/zwave.me/ZME_064381.xml \

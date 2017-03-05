@@ -166,6 +166,8 @@ Version 1.5
  - Pull Request #1105 - Replace some of the Explicit Locking with Scoped Locks (from tobiasgraf) - Also additional checking on the Unix Mutex Class to detect unbalanced Locking (Justin)
  - If the TriggerRefreshValue XML is invalid, we could get into a infinite loop when trying to read the params (Justin)
  - Add Fibaro FGKF601 Keyfob (Nechry)
+ - Add BeNext TagReader500 from hvbommel (Nechry)
+ - Restore Z-Wave.Me ZME_05461 (Nechry)
  
 Version 1.4
  - Released 10th Jan, 2016
@@ -522,3 +524,4 @@ Version 1.1
  - Remove the hidapi.h include from our headers so we don't have to
    distribute the hidapi header files (Justin)
  - Fixed Issue 375 - Add Ecolink Garage Door Sensor - (Justin)
+ - Add additional CT30 Thermostat config entry to manufacturer specific list
